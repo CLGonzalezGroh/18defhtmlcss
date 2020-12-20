@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">
+        <span>Name:</span>
+        <input
+          autocomplete="name"
+          id="name"
+          name="name"
+          placeholder="your name"
+          required
+          type="text"
+        />
+      </label>
+      <label for="email">
+        <span>Email:</span>
+        <input type="email" name="email" id="email" autocomplete="email" />
+      </label>
+      <label for="country">
+        <span>Country:</span>
+        <input
+          autocomplete="country"
+          id="country"
+          name="country"
+          required
+          type="text"
+        />
+      </label>
+      <section>
+        <select name="curso" id="" required>
+          <option value="Java">Java</option>
+          <option value="CSS">CSS</option>
+          <option value="React">React</option>
+        </select>
+      </section>
+      <input
+        list="class"
+        required
+        name="class"
+        placeholder="Ingrese el Tag que esta buscando"
+      />
+      <datalist id="class">
+        <option value="02-P-301"></option>
+        <option value="02-P-305"></option>
+        <option value="02-P-345"></option>
+        <option value="02-P-505"></option>
+        <option value="02-P-506"></option>
+        <option value="02-P-507"></option>
+        <option value="02-P-508"></option>
+        <option value="02-P-510"></option>
+      </datalist>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hermano {
+  padding-bottom: 20px;
+}
+
+div p {
+  color: blue;
+}
+
+h2 ~ p {
+  color: red;
+}
